@@ -89,7 +89,7 @@ def diskstats_read(data=None):
         if device not in disks:
             continue
 
-        for i in range(1, 12):
+        for i in xrange(1, 12):
             # no mapping
             if i == 6:
                 continue
